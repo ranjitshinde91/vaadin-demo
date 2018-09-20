@@ -1,0 +1,17 @@
+<context-param>
+    <param-name>contextClass</param-name>
+    <param-value>
+        org.springframework.web.context.support.Annotation
+        ConfigWebApplicationContext
+    </param-value>
+</context-param>
+<context-param>
+<param-name>contextConfigLocation</param-name>
+<param-value>config.AppConfig
+</param-value>
+</context-param>
+<listener>
+<listener-class>
+    org.springframework.web.context.ContextLoaderListener
+</listener-class>
+</listener>
